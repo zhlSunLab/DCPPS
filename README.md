@@ -26,5 +26,5 @@ If you want to predict kinase-specific site, taking MAPK as a example, run:
 
      change the filename and python train.py.
 
-Otherwise, the modelweights was saved in the cloudy space:
+Otherwise, the modelweights was saved in the cloudy space: https://drive.google.com/file/d/1ikwFfqmjzDwkxYBf57aUrP5C17bQbjZh/view?usp=sharing
 
