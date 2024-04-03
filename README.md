@@ -1,6 +1,6 @@
-# FFC-PSP
+# FFC-PPS
 
-FFC-PSP provides the prediction of kinase-specific phosphorylation site using deep leraning.
+FFC-PPS provides the prediction of kinase-specific phosphorylation site using deep leraning.
 
 # Requirement
 
