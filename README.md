@@ -15,7 +15,7 @@ numpy >= 1.8.0
 backend == tensorflow
 ```
 
-# Predict For Your Test Data
+# Predict
 ## Download the model weights of all kinase-specific phosphorylation sites datasets
 The model weights were saved in the cloudy space: https://drive.google.com/file/d/1ikwFfqmjzDwkxYBf57aUrP5C17bQbjZh/view?usp=sharing
 
