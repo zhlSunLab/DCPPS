@@ -1,30 +1,35 @@
-# FFC-PPS
+# DCPPS
 
-FFC-PPS provides the prediction of kinase-specific phosphorylation site using deep leraning.
+DCPPS provides the prediction of kinase-specific phosphorylation sites using dynamic embedding and cross-representation interaction
 
 # Requirement
+```env
+python == 3.7
 
-    python == 3.7
-    
-    keras == 2.4.0
-    
-    tensorflow == 2.4.0
+keras == 2.4.0
 
-    numpy >= 1.8.0
+tensorflow == 2.4.0
 
-    backend == tensorflow
+numpy >= 1.8.0
+
+backend == tensorflow
+```
 
 # Predict For Your Test Data
+## Download the model weights of all kinase-specific phosphorylation sites datasets
+The model weights were saved in the cloudy space: https://drive.google.com/file/d/1ikwFfqmjzDwkxYBf57aUrP5C17bQbjZh/view?usp=sharing
 
-cd to the FFC-PSP fold
+## Predict
+```shell
+cd ./DCPPS
 
-If you want to predict kinase-specific site, taking MAPK as a example, run:
+# If you want to predict kinase-specific sites, take MAPK as an example:
+# First modify the kinase name in predict.py
+# Then, run
+python predict.py
+```
 
-    First change the filename in predict.py and then python predict.py.
-
-# Train For Your own Data
-
-     change the filename and python train.py.
-
-Otherwise, the modelweights was saved in the cloudy space: https://drive.google.com/file/d/1ikwFfqmjzDwkxYBf57aUrP5C17bQbjZh/view?usp=sharing
-
+# Train For Your Own Data
+```shell
+python train.py
+```
