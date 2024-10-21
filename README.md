@@ -29,7 +29,7 @@ cd ./DCPPS
 python predict.py
 ```
 
-# Train For Your Own Data
+# Train
 ```shell
 python train.py
 ```
