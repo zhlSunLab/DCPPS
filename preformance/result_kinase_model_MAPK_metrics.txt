@@ -1,2 +1,2 @@
-auc	aupr	precision
+auc	aupr
 0.9512648809523809	0.3039754663373503
