@@ -446,7 +446,7 @@ def write_result(modelname, pred, pred_probe, true_Y, fpr, tpr, precision_plt, r
             f1.write(str(true_Y[index]) + '\t' + str(pred[index]) + '\t' + str(pred_probe[index]) + '\n')
 
     with open(metricsss, 'w') as f2:
-        f2.write("auc\taupr\tprecision\tF1\tacc\tSp\trecall\tmcc\n")
+        f2.write("auc\taupr\n")
         f2.write(str(auc_) + '\t' + str(aupr_) + '\n')
 
     with open(roc_plt, 'w') as f3:
